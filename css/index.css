@@ -15,7 +15,6 @@
 }
 
 body {
-  background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
   font-family: var(--font-family);
 }
 
@@ -25,7 +24,7 @@ body {
   margin-left: auto;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
@@ -36,6 +35,8 @@ button{
   display: flex;
   align-items: center;
   gap: 56px;
+
+  background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
 }
 
 .logo_link {
@@ -61,9 +62,9 @@ button{
 
 .nav_item_link {
   font-family: var(--font-family);
-font-weight: 700;
-font-size: 28px;
-color: #c8bfbf;
+  font-weight: 700;
+  font-size: 28px;
+  color: #c8bfbf;
 }
 
 .header_btn {
@@ -78,4 +79,85 @@ color: #c8bfbf;
   font-weight: 700;
   font-size: 30px;
   color: #faab34;
+}
+
+/* =====HERO===== */
+
+.hero .container {
+  position: relative;
+
+  padding: 74px 30px 97px 21px;
+
+  background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
+}
+
+.hero_price {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+
+  margin-bottom: 20px;
+}
+
+.hero_title {
+  width: 460px;
+  padding-bottom: 87px;
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 135px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.hero_discont {
+  position: absolute;
+  bottom: 253px;
+  left: 30px;
+
+  width: 218px;
+  height: 218px;
+  border-radius: 100%;
+
+  background-color: #faab34;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discont_text {
+  padding-top: 30px;
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 47%;
+  text-align: center;
+  color: #fff;
+
+  span {
+    font-size: 32px;
+  }
+}
+
+.hero_post_text {
+  padding-left: 235px;
+  width: 364px;
+
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 47px;
+line-height: 100%;
+color: #fff;
+}
+
+.hero_btn {
+}
+
+.hero_img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

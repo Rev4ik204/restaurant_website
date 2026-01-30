@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Restaurant</title>
   </head>
   <body>
@@ -14,20 +14,54 @@
           <img src="./images/svg/logo.svg" alt="logo_icon" class="logo_img" />
         </a>
         <nav class="header_nav">
-            <ul class="nav_list">
-                <li class="nav_item"><a href="#" class="nav_item_link">Home</a></li>
-                <li class="nav_item"><a href="#" class="nav_item_link">Our Menu</a></li>
-                <li class="nav_item"><a href="#" class="nav_item_link">Offers</a></li>
-                <li class="nav_item"><a href="#" class="nav_item_link">About</a></li>
-                <li class="nav_item"><a href="#" class="nav_item_link">Franchise</a></li>
-                <li class="nav_item"><a href="#" class="nav_item_link">Contact</a></li>
-            </ul>
+          <ul class="nav_list">
+            <li class="nav_item"><a href="#" class="nav_item_link">Home</a></li>
+            <li class="nav_item">
+              <a href="#" class="nav_item_link">Our Menu</a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_item_link">Offers</a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_item_link">About</a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_item_link">Franchise</a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_item_link">Contact</a>
+            </li>
+          </ul>
         </nav>
         <button class="header_btn">Download App</button>
       </div>
     </header>
     <main class="main">
-      <section class="hero"></section>
+      <section class="hero">
+        <div class="container">
+          <p class="hero_price">Only $10.54</p>
+          <h1 class="hero_title">The Smokin Burger</h1>
+          <div class="hero_discont">
+            <p class="discont_text">15% <span>DISCOUNT</span></p>
+          </div>
+          <p class="hero_post_text">
+            On your first order, if you order through our App!
+          </p>
+          <button class="hero_btn">ORDER ONLINE</button>
+          <picture>
+            <source
+              srcset="./images/img/hero_img.avif"
+              type="image/avif "
+            />
+            <source srcset="./images/img/hero_img.webp" type="image/webp" />
+            <img
+              class="hero_img"
+              src="./images/img/hero_img.png"
+              alt="hero_img"
+            />
+          </picture>
+        </div>
+      </section>
     </main>
     <footer class="footer"></footer>
   </body>
