@@ -17,6 +17,7 @@
 body {
   font-family: var(--font-family);
   background-color: #5fc56a;
+  box-sizing: border-box;
 }
 
 .container {
@@ -32,7 +33,9 @@ button {
 
 /* =====HEADER===== */
 .header .container {
-  padding: 38px 30px 38px 21px;
+  /* padding: 38px 30px 38px 21px; */
+  padding-top: 38px;
+  padding-bottom: 38px;
 
   display: flex;
   align-items: center;
@@ -42,6 +45,7 @@ button {
 }
 
 .logo_link {
+  padding-left: 21px;
 }
 
 .logo_img {
@@ -87,7 +91,9 @@ button {
 .hero .container {
   position: relative;
 
-  padding: 74px 30px 97px 21px;
+  /* padding: 74px 30px 97px 21px; */
+  padding-top: 74px;
+  padding-bottom: 97px;
 
   background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
 }
@@ -99,11 +105,13 @@ button {
   color: #fff;
 
   margin-bottom: 20px;
+  margin-left: 21px;
 }
 
 .hero_title {
   width: 460px;
   padding-bottom: 87px;
+  margin-left: 21px;
 
   font-family: var(--font-family);
   font-weight: 700;
@@ -144,7 +152,7 @@ button {
 }
 
 .hero_post_text {
-  margin-left: 235px;
+  margin-left: 265px;
   margin-bottom: 50px;
   width: 364px;
 
@@ -156,7 +164,7 @@ button {
 }
 
 .hero_btn {
-  margin-left: 235px;
+  margin-left: 265px;
   border-radius: 50px;
   padding: 22px 40px;
   width: 330px;
@@ -191,6 +199,8 @@ button {
 
 .dicont_white {
   position: absolute;
+  left: 30px;
+  top: -28px;
 
   width: 218px;
   height: 218px;
@@ -220,6 +230,8 @@ button {
 
 .dicont_orange {
   position: absolute;
+  left: 88px;
+  top: -28px;
 
   width: 218px;
   height: 218px;
@@ -249,6 +261,8 @@ button {
 
 .dicont_green {
   position: absolute;
+  top: -44px;
+  left: 88px;
 
   width: 218px;
   height: 218px;
@@ -283,6 +297,7 @@ button {
 }
 
 .discont_menu_card1_img {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card1_info,
@@ -334,13 +349,14 @@ button {
 }
 
 .discont_menu_card2 {
-  
 }
 
 .discont_menu_card2_img {
+  background: rgba(0, 0, 0, 0.6);
+  filter: opacity(60%);
 }
 
-.card2_info{
+.card2_info {
   left: 81px;
   bottom: 93px;
 }
@@ -356,13 +372,12 @@ button {
 }
 
 .discont_menu_card3 {
-  
 }
 
 .discont_menu_card3_img {
 }
 
-.card3_info{
+.card3_info {
   left: 88px;
 }
 
