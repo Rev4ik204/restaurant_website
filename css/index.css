@@ -33,9 +33,13 @@ button {
 
 /* =====HEADER===== */
 .header .container {
+  position: absolute;
+  top: 0;
+  left: calc((100% - 1440px) / 2);
+  z-index: 5;
   /* padding: 38px 30px 38px 21px; */
   padding-top: 38px;
-  padding-bottom: 38px;
+  /* padding-bottom: 38px; */
 
   display: flex;
   align-items: center;
@@ -92,7 +96,7 @@ button {
   position: relative;
 
   /* padding: 74px 30px 97px 21px; */
-  padding-top: 74px;
+  padding-top: 192px;
   padding-bottom: 97px;
 
   background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
@@ -296,8 +300,20 @@ button {
   position: relative;
 }
 
+.discont_menu_card1 {
+  width: 735px;
+  height: 1370px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    image-set(
+      url("../images/img/discont_card1.avif") type("image/avif"),
+      url("../images/img/discont_card1.webp") type("image/webp"),
+      url("../images/img/discont_card1.png") type("image/.png")
+    );
+}
+
 .discont_menu_card1_img {
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .card1_info,
@@ -349,11 +365,20 @@ button {
 }
 
 .discont_menu_card2 {
+  width: 705px;
+  height: 685px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    image-set(
+      url("../images/img/discont_card2.avif") type("image/avif"),
+      url("../images/img/discont_card2.webp") type("image/webp"),
+      url("../images/img/discont_card2.png") type("image/.png")
+    );
 }
 
 .discont_menu_card2_img {
-  background: rgba(0, 0, 0, 0.6);
-  filter: opacity(60%);
+  /* background: rgba(0, 0, 0, 0.6); */
+  /* filter: opacity(60%); */
 }
 
 .card2_info {
@@ -372,6 +397,15 @@ button {
 }
 
 .discont_menu_card3 {
+   width: 705px;
+  height: 685px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    image-set(
+      url("../images/img/discont_card3.avif") type("image/avif"),
+      url("../images/img/discont_card3.webp") type("image/webp"),
+      url("../images/img/discont_card3.png") type("image/.png")
+    );
 }
 
 .discont_menu_card3_img {
@@ -461,6 +495,6 @@ button {
     font-weight: 700;
     font-size: 28px;
     color: #414141;
-    text-decoration: dashed;
+    text-decoration: underline;
   }
 }
