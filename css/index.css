@@ -477,15 +477,15 @@ button {
 }
 
 .ingr_item:nth-child(2) {
-  .ingr_item_list_item:first-child{
-    .ingr_item_text{
+  .ingr_item_list_item:first-child {
+    .ingr_item_text {
       width: 341px;
       height: 197px;
     }
   }
 
-   .ingr_item_list_item:last-child{
-      width: 471px;
+  .ingr_item_list_item:last-child {
+    width: 471px;
   }
 }
 
@@ -542,10 +542,81 @@ button {
   left: 715px;
 }
 
-.line_1 {
+.line1 {
+  position: absolute;
+  top: 527px;
+  left: 310px;
+
+  svg {
+    width: 248px;
+    height: 188px;
+  }
 }
 
-.line_2 {
+.line2 {
+  position: absolute;
+  top: 528px;
+  left: 725px;
+
+  svg {
+    width: 277px;
+    height: 84px;
+  }
+}
+
+.line3 {
+  position: absolute;
+  top: 860px;
+  left: 329px;
+
+  svg {
+    width: 299px;
+    height: 166px;
+  }
+}
+
+.line4 {
+  position: absolute;
+  top: 775px;
+  left: 804px;
+
+  svg {
+    width: 296px;
+    height: 93px;
+  }
+}
+
+.line5 {
+  position: absolute;
+  top: 1286px;
+  left: 391px;
+
+  svg {
+    width: 230px;
+    height: 20px;
+  }
+}
+
+.line6 {
+  position: absolute;
+  top: 1077px;
+  left: 823px;
+
+  svg {
+    width: 289px;
+    height: 220px;
+
+    
+  }
+}
+
+.ellipse17{
+  position: absolute;
+  top: 1334px;
+  left: 486px;
+  /* z-index: 3; */
+
+  
 }
 
 /* =====FOOTER===== */
