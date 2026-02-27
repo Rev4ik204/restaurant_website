@@ -363,7 +363,8 @@ button {
   font-size: 30px;
 }
 
-.discont_card2_title, .discont_card4_title {
+.discont_card2_title,
+.discont_card4_title {
   margin-top: -15px;
   margin-left: 7px;
 }
@@ -395,15 +396,76 @@ button {
 .discont_menu_card3_img {
 }
 
-.card3_info, .card5_info{
+.card3_info,
+.card5_info {
   left: 88px;
 }
 
 .discont_card3_pretext {
 }
 
-.discont_card3_title, .discont_card5_title {
+.discont_card3_title,
+.discont_card5_title {
   margin-top: -15px;
+}
+
+/* =====APP INFO===== */
+
+.APP_info .container {
+  padding: 280px 30px 367px 671px;width: 1440px;
+
+  background: linear-gradient(180deg, #017e0d 0%, #309600 100%);
+
+  position: relative;
+}
+
+.iphone_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.discont_burger_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.app_discont {
+  width: 739px;
+}
+
+.app_discont_title {
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 93px;
+text-align: right;
+color: #fff;
+
+margin-bottom: 13px;
+}
+
+.app_discont_text {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 48px;
+color: #fff;
+
+margin-bottom: 103px;
+}
+
+.app_connect {
+}
+
+.app_link {
+}
+
+.google_play_store_img {
+}
+
+.IOS_app_store_img {
 }
 
 /* =====FOOTER===== */
