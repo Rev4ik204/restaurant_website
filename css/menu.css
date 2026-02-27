@@ -52,8 +52,7 @@ button {
   padding-left: 21px;
 }
 
-.logo_img {
-}
+
 
 .header_nav {
   padding-left: 86px;
@@ -168,7 +167,7 @@ button {
 .burger_menu_list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 45px;
+  row-gap: 90px;
   column-gap: 90px;
   justify-content: center;
 }
@@ -177,13 +176,21 @@ button {
   position: relative;
 
   width: 400px;
-  height: 639px;
+  /* height: 639px; */
 padding-top: 226px;
 }
 
 .burger_img {
   position: absolute;
   bottom: 255px;
+  left:50%;
+  transform:translateX(-50%) ;
+}
+
+.burger_item:nth-child(4) .burger_img{
+  transform:translateX(-40%) ;
+
+
 }
 
 .burger_item_info {
@@ -191,12 +198,12 @@ padding-top: 226px;
   flex-direction: column;
   align-items: center;
 
-  /* padding-top: 128px; */
+  padding-top: 128px;
 padding-bottom: 89px;
 
   border-radius: 15px;
   width: 400px;
-  height: 379px;
+  /* height: 379px; */
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background: #fff;
@@ -232,7 +239,11 @@ padding-bottom: 89px;
 
 .burger_item_btn {
   position: absolute;
-  display: none;
+bottom: 0;
+left: 50%;
+transform: translate(-50%,50%);
+
+background-color: transparent;
 }
 
 .burger_item_btn_plus {
