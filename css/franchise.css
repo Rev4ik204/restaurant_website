@@ -201,6 +201,26 @@ line-height: 122%;
 color: #faab34;
 }
 
+/* =====PASSION===== */
+
+.passion .container {
+   width: 1440px;
+  height: 1135px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81)),
+    image-set(
+      url("../images/img/passion_bg.avif") type("image/avif"),
+      url("../images/img/passion_bg.webp") type("image/webp"),
+      url("../images/img/passion_bg.png") type("image/.png")
+    );
+}
+.passion_title {
+}
+.passion_text {
+}
+.passion_btn {
+}
+
 /* =====FOOTER===== */
 
 .footer .container {
