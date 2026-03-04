@@ -95,8 +95,8 @@ button {
 .hero .container {
   position: relative;
 
-  padding-top: 301px;
-  height: 868px;
+  padding-top: 300px;
+  height: 650px;
 
   background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
 }
@@ -126,7 +126,7 @@ button {
 .hero_ellipse_img {
   position: absolute;
   left: 466px;
-  bottom: 209px;
+  bottom: 130px;
 
   width: 583px;
 }
@@ -412,7 +412,9 @@ button {
 /* =====APP INFO===== */
 
 .APP_info .container {
-  padding: 280px 30px 367px 671px;width: 1440px;
+  padding-top: 280px;
+  padding-bottom: 367px;
+  width: 1440px;
 
   background: linear-gradient(180deg, #017e0d 0%, #309600 100%);
 
@@ -421,51 +423,52 @@ button {
 
 .iphone_img {
   position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
+  top: 164px;
+  left: 30px;
 }
 
 .discont_burger_img {
   position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
+  top: 610px;
+  left: 454px;
 }
 
 .app_discont {
+  margin-left: 671px;
   width: 739px;
 }
 
 .app_discont_title {
   font-family: var(--font-family);
-font-weight: 800;
-font-size: 93px;
-text-align: right;
-color: #fff;
+  font-weight: 800;
+  font-size: 93px;
+  text-align: right;
+  color: #fff;
 
-margin-bottom: 13px;
+  margin-bottom: 13px;
 }
 
 .app_discont_text {
   font-family: var(--font-family);
-font-weight: 500;
-font-size: 48px;
-color: #fff;
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
 
-margin-bottom: 103px;
+  margin-bottom: 103px;
 }
 
 .app_connect {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .app_link {
 }
 
-.google_play_store_img {
-}
-
+.google_play_store_img,
 .IOS_app_store_img {
+  height: 101px;
 }
 
 /* =====FOOTER===== */

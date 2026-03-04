@@ -95,8 +95,9 @@ button {
 .hero .container {
   position: relative;
 
-  padding-top: 301px;
-  height: 868px;
+  /* padding-bottom: 200px; */
+  padding-top: 300px;
+  height: 650px;
 
   background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
 }
@@ -126,7 +127,7 @@ button {
 .hero_ellipse_img {
   position: absolute;
   left: 466px;
-  bottom: 209px;
+  bottom: 130px;
 
   width: 583px;
 }
