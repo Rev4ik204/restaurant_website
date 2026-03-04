@@ -216,10 +216,35 @@ color: #faab34;
     );
 }
 .passion_title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 100px;
+line-height: 108%;
+text-align: center;
+color: #fff;
 }
 .passion_text {
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 50px;
+line-height: 120%;
+text-align: center;
+color: #fff;
 }
 .passion_btn {
+  border-radius: 50px;
+padding: 22px 40px;
+width: 274px;
+height: 88px;
+
+background-color: #fff;
+
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 122%;
+color: #faab34;
+
 }
 
 /* =====FOOTER===== */
