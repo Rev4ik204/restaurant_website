@@ -326,10 +326,54 @@ button {
   color: #fff;
 }
 
-.rest2 {
+/* =====ABOUT===== */
+
+.about .container {
+  position: relative;
 }
 
-.rest3 {
+.about_title {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 100px;
+line-height: 92%;
+text-align: center;
+color: #4d4d4d;
+}
+
+.about_line1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about_line2 {
+   position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about_list {
+}
+
+.about_item {
+}
+
+.about_item_title {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 100px;
+line-height: 92%;
+text-align: center;
+color: #faab34;
+}
+
+.about_item_text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+line-height: 160%;
+color: #000;
 }
 
 /* =====FOOTER===== */
