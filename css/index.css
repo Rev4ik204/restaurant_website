@@ -1,98 +1,17 @@
-@font-face {
-  font-family: Roboto;
-  src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf)
-    format("truetype");
-}
 
-@font-face {
-  font-family: Inter;
-  src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf) format("truetype");
-}
-
-:root {
-  --font-family: "Roboto", sans-serif;
-  --second-family: "Inter", sans-serif;
-}
-
-body {
-  font-family: var(--font-family);
-  background-color: #5fc56a;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-}
+@import 'style.css';
 
 /* =====HEADER===== */
 .header .container {
-  position: absolute;
-  top: 0;
-  left: calc((100% - 1440px) / 2);
-  z-index: 5;
-  /* padding: 38px 30px 38px 21px; */
-  padding-top: 38px;
-  /* padding-bottom: 38px; */
+ 
+  padding-bottom: 0px;
 
-  display: flex;
-  align-items: center;
-  gap: 56px;
-
-  background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
-}
-
-.logo_link {
-  padding-left: 21px;
-}
-
-.logo_img {
-}
-
-.header_nav {
-  padding-left: 86px;
-}
-
-.nav_list {
-  width: 704px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav_item {
-}
-
-.nav_item_link {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 28px;
-  color: #c8bfbf;
-}
-
-.header_btn {
-  border-radius: 50px;
-  width: 266px;
-  height: 67px;
-
-  background: #fff;
-
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 30px;
-  color: #faab34;
+ 
 }
 
 /* =====HERO===== */
 
-.hero .container {
+.hero_index .container {
   position: relative;
 
   /* padding: 74px 30px 97px 21px; */
@@ -102,7 +21,7 @@ button {
   background: linear-gradient(180deg, #017e0d 0%, #017e0d 100%);
 }
 
-.hero_price {
+.hero_index_price {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 35px;
@@ -112,7 +31,7 @@ button {
   margin-left: 21px;
 }
 
-.hero_title {
+.hero_index_title {
   width: 460px;
   padding-bottom: 87px;
   margin-left: 21px;
@@ -124,7 +43,7 @@ button {
   color: #fff;
 }
 
-.hero_discont {
+.hero_index_discont {
   position: absolute;
   bottom: 253px;
   left: 30px;
@@ -140,7 +59,7 @@ button {
   align-items: center;
 }
 
-.discont_text {
+.discont_index_text {
   padding-top: 30px;
 
   font-family: var(--font-family);
@@ -155,7 +74,7 @@ button {
   }
 }
 
-.hero_post_text {
+.hero_index_post_text {
   margin-left: 265px;
   margin-bottom: 50px;
   width: 364px;
@@ -167,7 +86,7 @@ button {
   color: #fff;
 }
 
-.hero_btn {
+.hero_index_btn {
   margin-left: 265px;
   border-radius: 50px;
   padding: 22px 40px;
@@ -181,13 +100,13 @@ button {
   color: #faab34;
 }
 
-.hero_img {
+.hero_index_img {
   position: absolute;
   bottom: -100px;
   right: 0;
 }
 
-.hero_ellipse_img {
+.hero_index_ellipse_img {
   position: absolute;
   left: 466px;
   bottom: 209px;
