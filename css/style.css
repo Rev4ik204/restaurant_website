@@ -31,6 +31,10 @@ button {
   border: none;
 }
 
+a{
+  cursor: pointer;
+}
+
 /* =====HEADER===== */
 .header .container {
   position: absolute;
@@ -77,9 +81,9 @@ button {
   color: #c8bfbf;
 }
 
-.nav_item_link.active{
-    color:#acf10b;
-    font-weight: bold;
+.nav_item_link.active {
+  color: #acf10b;
+  font-weight: bold;
 }
 
 .header_btn {
@@ -129,7 +133,8 @@ button {
   text-align: center;
 }
 
-.hero_pretitle, .hero_title{
+.hero_pretitle,
+.hero_title {
   position: relative;
   z-index: 5;
 
@@ -139,7 +144,7 @@ button {
 .hero_ellipse_img {
   position: absolute;
   left: 50%;
-  top:50%;
-transform: translate(-50%,-30%);
-  width:100%;
+  top: 50%;
+  transform: translate(-50%, -30%);
+  width: 100%;
 }

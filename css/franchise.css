@@ -198,7 +198,12 @@
 /* =====ABOUT===== */
 
 .about .container {
+background-color: #fff;
+  
   position: relative;
+
+  padding-top: 68px;
+  padding-bottom: 177px;
 }
 
 .about_title {
@@ -208,24 +213,28 @@ font-size: 100px;
 line-height: 92%;
 text-align: center;
 color: #4d4d4d;
+
+margin-bottom: 182px;
 }
 
-.about_line1 {
+.about_line1, .about_line2 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 231px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.about_line2 {
-   position: absolute;
-  top: 0;
-  left: 0;
-}
+
+
 
 .about_list {
+  display: flex;
+  gap: 127px;
+  justify-content: center;
 }
 
 .about_item {
+  width: 627px;
 }
 
 .about_item_title {
@@ -235,6 +244,8 @@ font-size: 100px;
 line-height: 92%;
 text-align: center;
 color: #faab34;
+
+margin-bottom: 37px;
 }
 
 .about_item_text {
@@ -250,6 +261,7 @@ color: #000;
 .footer .container {
   padding-top: 33px;
   padding-bottom: 39px;
+  background-color:#E5E5E5;
 }
 
 .footer_wrap1,
