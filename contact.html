@@ -113,23 +113,52 @@
             <div class="contact_name">
               <ul class="contact_name_list">
                 <li class="contact_name_item">
-                  <label for="" class="form_label"></label>
-                  <input type="text" class="form_input" />
+                  <label for="first_name" class="form_label">
+                    First Name <span>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="first_name"
+                    class="form_input"
+                    placeholder="Enter your first name here"
+                  />
                 </li>
                 <li class="contact_name_item">
-                  <label for="" class="form_label"></label>
-                  <input type="text" class="form_input" />
+                  <label for="last_name" class="form_label">
+                    Last Name <span>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="last_name"
+                    class="form_input"
+                    placeholder="Enter your Last name here"
+                  />
                 </li>
               </ul>
             </div>
-            <label for="" class="form_label"></label>
-            <input type="text" class="form_input" />
-            <label
-              for=""
-              class="form_label"
-            >
-            </label>
-            <textarea name="message" id="message" placeholder="Type your message here"></textarea>
+            <div class="email_block">
+              <label for="email" class="form_label">
+                Email Address <span>*</span>
+              </label>
+              <input
+                type="text"
+                id="email"
+                class="form_input"
+                placeholder="Enter your email address here"
+              />
+            </div>
+            <div class="message_block">
+              <label for="message" class="form_label">
+                Message <span>*</span>
+              </label>
+              <textarea
+                name="message"
+                class="form_input"
+                id="message"
+                placeholder="Type your message here"
+              >
+              </textarea>
+            </div>
             <button class="form_btn">SEND</button>
           </div>
         </div>
