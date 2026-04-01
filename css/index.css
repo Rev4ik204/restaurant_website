@@ -1,12 +1,8 @@
-
-@import 'style.css';
+@import "style.css";
 
 /* =====HEADER===== */
 .header .container {
- 
   padding-bottom: 0px;
-
- 
 }
 
 /* =====HERO===== */
@@ -568,7 +564,9 @@
   margin-bottom: 10px;
 }
 
-.dell_line{margin-bottom: 50px;}
+.dell_line {
+  margin-bottom: 50px;
+}
 
 .burger_menu_list {
   display: flex;
@@ -583,20 +581,18 @@
 
   width: 400px;
   /* height: 639px; */
-padding-top: 226px;
+  padding-top: 226px;
 }
 
 .burger_img {
   position: absolute;
   bottom: 255px;
-  left:50%;
-  transform:translateX(-50%) ;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.burger_item:nth-child(4) .burger_img{
-  transform:translateX(-40%) ;
-
-
+.burger_item:nth-child(4) .burger_img {
+  transform: translateX(-40%);
 }
 
 .burger_item_info {
@@ -605,7 +601,7 @@ padding-top: 226px;
   align-items: center;
 
   padding-top: 128px;
-padding-bottom: 89px;
+  padding-bottom: 89px;
 
   border-radius: 15px;
   width: 400px;
@@ -645,16 +641,221 @@ padding-bottom: 89px;
 
 .burger_item_btn {
   position: absolute;
-bottom: 0;
-left: 50%;
-transform: translate(-50%,50%);
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
 
-background-color: transparent;
+  background-color: transparent;
 }
 
 .burger_item_btn_plus {
 }
 
+/* =====TESTIMO===== */
+
+.testimo .container {
+  width: 1440px;
+  height: 1864px;
+  background-image: image-set(
+    url("../images/img/testimo_bg.avif") type("image/avif"),
+    url("../images/img/testimo_bg.webp") type("image/webp"),
+    url("../images/img/testimo_bg.png") type("image/.png")
+  );
+
+  position: relative;
+}
+
+.wrap {
+  position: absolute;
+  left: 0;
+  bottom: 87px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 0 15px 0 0;
+  width: 1163px;
+  height: 1866px;
+
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+
+  box-sizing: border-box;
+  padding: 119px 22px 124px 30px;
+}
+
+.testimo1_img {
+  position: absolute;
+}
+
+.testimo2_img {
+  position: absolute;
+}
+
+.testimo_line {
+  position: absolute;
+}
+
+.testimo_pretitle {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 50px;
+  color: #d88200;
+
+  margin-bottom: 5px;
+}
+
+.testimo_title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 100px;
+  color: #4d4d4d;
+
+  margin-bottom: 205px;
+}
+
+.testimo_list {
+  display: flex;
+  gap: 84px;
+
+  margin-bottom: 233px;
+}
+
+.test1 {
+  .test_text {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 39px;
+    text-align: justify;
+    color: #c90000;
+
+    width: 510px;
+  }
+}
+
+.user {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+
+  margin-bottom: 37px;
+}
+
+.user1 {
+}
+
+.user_info {
+}
+
+.user_name {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 30px;
+  color: #414141;
+
+  margin-bottom: 10px;
+}
+
+.user_reviews {
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 25px;
+  color: #414141;
+}
+
+.rating {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.star_list {
+  display: flex;
+  gap: 6px;
+}
+
+.star_item {
+}
+
+.star_img {
+}
+
+.rating_text {
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 25px;
+  color: #414141;
+}
+
+.test_text {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: justify;
+  color: #4d4d4d;
+}
+
+.test_col_right {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+
+.test_item {
+}
+
+.user2 {
+}
+
+.user3 {
+}
+
+.company_list {
+  display: flex;
+  gap: 134px;
+  align-items: end;
+}
+
+.company_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company_item:nth-child(2) {
+  .company_name {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 28px;
+    text-align: justify;
+    color: #000;
+  }
+}
+
+.company_item:nth-child(3) {
+  .company_name {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 45px;
+    text-align: justify;
+    color: #414141;
+  }
+}
+
+.company_icon {
+}
+
+.company_name {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 28px;
+  text-align: justify;
+  color: #3506bd;
+}
 
 /* =====APP INFO===== */
 
