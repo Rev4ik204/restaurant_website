@@ -1,7 +1,4 @@
-@import 'style.css';
-
-
-
+@import "style.css";
 
 /* -=====BURGER_MENU ===== */
 
@@ -50,20 +47,18 @@
 
   width: 400px;
   /* height: 639px; */
-padding-top: 226px;
+  padding-top: 226px;
 }
 
 .burger_img {
   position: absolute;
   bottom: 255px;
-  left:50%;
-  transform:translateX(-50%) ;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.burger_item:nth-child(4) .burger_img{
-  transform:translateX(-40%) ;
-
-
+.burger_item:nth-child(4) .burger_img {
+  transform: translateX(-40%);
 }
 
 .burger_item_info {
@@ -72,7 +67,7 @@ padding-top: 226px;
   align-items: center;
 
   padding-top: 128px;
-padding-bottom: 89px;
+  padding-bottom: 89px;
 
   border-radius: 15px;
   width: 400px;
@@ -112,14 +107,68 @@ padding-bottom: 89px;
 
 .burger_item_btn {
   position: absolute;
-bottom: 0;
-left: 50%;
-transform: translate(-50%,50%);
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
 
-background-color: transparent;
+  background-color: transparent;
 }
 
 .burger_item_btn_plus {
+}
+
+/* =====DELL BURGERS===== */
+
+.dell_burgers .container {
+  background-color: #e5e5e5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 86px;
+  padding-bottom: 128px;
+}
+
+.burger_menu_pre_text {
+  margin-bottom: 5px;
+}
+
+.burger_menu_title {
+  margin-bottom: 10px;
+}
+
+.dell_line {
+  margin-bottom: 109px;
+}
+
+.menu_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px 84px ;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu_item {
+}
+
+.dell_menu_item_img {
+}
+
+.item_details {
+}
+
+.item_header {
+}
+
+.item_title {
+}
+
+.item_description {
+}
+
+.item_price {
 }
 
 /* ===== ===== */
@@ -412,6 +461,3 @@ background-color: transparent;
 .IOS_app_store_img {
   height: 101px;
 }
-
-
-
