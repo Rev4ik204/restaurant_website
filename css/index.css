@@ -687,14 +687,21 @@
 
 .testimo1_img {
   position: absolute;
+  left: 30px;
+  top: 30px;
 }
 
 .testimo2_img {
   position: absolute;
+  right: 22px;
+  bottom: 290px;
 }
 
 .testimo_line {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 372px;
 }
 
 .testimo_pretitle {
@@ -713,6 +720,9 @@
   color: #4d4d4d;
 
   margin-bottom: 205px;
+
+  position: relative;
+  z-index: 2;
 }
 
 .testimo_list {
@@ -797,12 +807,17 @@
   line-height: 150%;
   text-align: justify;
   color: #4d4d4d;
+
+  position: relative;
+  z-index: 2;
 }
 
 .test_col_right {
   display: flex;
   flex-direction: column;
   gap: 43px;
+
+  margin-bottom: 50px;
 }
 
 .test_item {
