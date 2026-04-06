@@ -151,24 +151,68 @@
 }
 
 .menu_item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  padding-top: 43px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+
+  border-bottom: 3px dashed  #979797;
+
+  box-sizing: border-box;
+}
+
+.menu_item:nth-child(1), .menu_item:nth-child(2) {
+  border-top: 3px dashed  #979797;
+}
+
+.menu_item:nth-child(2n) {
+  padding-left: 0;
+  padding-right: 30px;
 }
 
 .dell_menu_item_img {
 }
 
 .item_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 530px;
+
 }
 
 .item_header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .item_title {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 30px;
+/* line-height: 307%; */
+color: #000;
 }
 
 .item_description {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+/* line-height: 383%; */
+color: #414141;
 }
 
 .item_price {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 34px;
+/* line-height: 271%; */
+color: #c90000;
 }
 
 /* ===== ===== */
